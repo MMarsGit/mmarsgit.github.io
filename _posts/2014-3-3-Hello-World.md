@@ -1,11 +1,8 @@
 ---
 layout: post
-title: You're up and running!
+title: Raspberry Pi Webserver
 published: true
 ---
-
-## Local Raspberry Pi Webserver
-
 ### Overview
 My aim was to make a webserver on my raspberry pi to act as a central point of interaction for the household. I wished to be able to do stuff like host files that can be downloaded when needed, have a live weather report and to take advantage of the hardware capabilities of the pi by taking the temperature of at least one room. But, first to do any of this I had to create the webserver itself.
 
