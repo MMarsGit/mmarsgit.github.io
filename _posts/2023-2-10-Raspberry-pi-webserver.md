@@ -12,7 +12,7 @@ To begin with I had to decide on what framework to base my webserver off of. The
 ### Making the webserver
 Setting up flask can simply be done through python's pip installer. After installing through the command prompt with 'pip install flask' I could then create a file that I decided to call 'app.py' through whocj y links on the site can be created and appropriate code can be sent into them. Here is a basic structure for a hello world program provided by the 'raspberrypi.org' website which will display an html page with a header 'hello world!'.
 
-'''
+```
 from flask import Flask
 
 app = Flask(__name__)
@@ -23,7 +23,7 @@ def index():
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0')
-'''
+```
 
 I adjusted mine to create a main landing page which displays 'Home webserver'.
 
